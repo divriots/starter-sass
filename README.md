@@ -1,2 +1,0 @@
-# starter-sass
-Sass
