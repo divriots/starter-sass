@@ -4,22 +4,28 @@
     "menu": [
       "introduction",
       [
-        "Theme",
+        "parts",
         [
           "typography",
-          "colors",
           "border",
           "opacity",
           "shadows",
           "spacing",
-          "z-index"
+          "z-index",
+          "main"
+        ]
+      ],
+      [
+        "tokens",
+        [
+          "colors",
+          "animations"
         ]
       ],
       [
         "infrastructure",
         [
-          "tailwind",
-          "mdx-layout"
+          "main"
         ]
       ]
     ]
