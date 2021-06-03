@@ -1,5 +1,3 @@
-@use '~/colors/src/colors';
-
 h1 {
   font-size: 2.2em;
   margin-top: 0;
@@ -22,7 +20,7 @@ h4,
 h5,
 h6,
 strong {
-  color: var(--text-bright);
+  color: var(--sass-color-text-bright);
 }
 
 h1,
@@ -47,7 +45,7 @@ q::after {
 
 blockquote,
 q {
-  border-left: 4px solid var(--focus);
+  border-left: 4px solid var(--sass-color-focus);
   margin: 1.5em 0;
   padding: 0.5em 1em;
   font-style: italic;
@@ -79,8 +77,8 @@ a[href^='sms\:']::before {
 }
 
 mark {
-  background-color: var(--highlight);
+  background-color: var(--sass-color-highlight);
   border-radius: 2px;
   padding: 0 2px 0 2px;
-  color: var(--black);
+  color: #000;
 }

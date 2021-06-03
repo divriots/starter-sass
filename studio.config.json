@@ -6,20 +6,21 @@
       [
         "parts",
         [
-          "typography",
-          "border",
-          "opacity",
-          "shadows",
-          "spacing",
-          "z-index",
-          "main"
+          "base",
+          "code",
+          "forms",
+          "links",
+          "misc",
+          "print",
+          "range",
+          "typography"
         ]
       ],
       [
         "tokens",
         [
-          "colors",
-          "animations"
+          "dark",
+          "light"
         ]
       ],
       [

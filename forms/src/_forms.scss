@@ -1,5 +1,3 @@
-@use '~/colors/src/colors';
-
 button,
 select,
 input[type='submit'],
@@ -20,8 +18,8 @@ input,
 button,
 textarea,
 select {
-  color: var(--form-text);
-  background-color: var(--background);
+  color: var(--sass-color-form-text);
+  background-color: var(--sass-color-background);
   font-family: inherit;
   font-size: inherit;
   margin-right: 6px;
@@ -83,7 +81,8 @@ textarea:not([rows]) {
 }
 
 select {
-  background: var(--background) var(--select-arrow) calc(100% - 12px) 50% / 12px no-repeat;
+  background: var(--sass-color-background) var(--sass-color-select-arrow)
+    calc(100% - 12px) 50% / 12px no-repeat;
   padding-right: 35px;
 }
 
@@ -109,14 +108,14 @@ button:hover,
 input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover {
-  background: var(--button-hover);
+  background: var(--sass-color-button-hover);
 }
 
 input:focus,
 select:focus,
 button:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px var(--focus);
+  box-shadow: 0 0 0 2px var(--sass-color-focus);
 }
 
 input[type='checkbox']:active,
@@ -138,11 +137,11 @@ textarea:disabled {
 }
 
 ::placeholder {
-  color: var(--form-placeholder);
+  color: var(--sass-color-form-placeholder);
 }
 
 fieldset {
-  border: 1px var(--focus) solid;
+  border: 1px var(--sass-color-focus) solid;
   border-radius: 6px;
   margin: 0;
   margin-bottom: 12px;
