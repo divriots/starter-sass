@@ -22,9 +22,9 @@ body {
 button,
 input,
 textarea {
-  transition: background-color var(--sass-color-animation-duration) linear,
-    border-color var(--sass-color-animation-duration) linear,
-    color var(--sass-color-animation-duration) linear,
-    box-shadow var(--sass-color-animation-duration) linear,
-    transform var(--sass-color-animation-duration) ease;
+  transition: background-color var(--sass-transition-duration) linear,
+    border-color var(--sass-transition-duration) linear,
+    color var(--sass-transition-duration) linear,
+    box-shadow var(--sass-transition-duration) linear,
+    transform var(--sass-transition-duration) ease;
 }
