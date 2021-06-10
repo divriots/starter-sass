@@ -6,7 +6,7 @@
 	"type": "module",
 	"homepage": "{{ homepage }}",
 	"scripts": {
-		"serve": "dsd-cli serve U3bRwsh0qncQBY27uPGi --open"
+		"serve": "dsd-cli serve eFLUQfY0zrR6dOuX5llT --open"
 	},
 	"devDependencies": {
 		"dsd-cli": "latest"
