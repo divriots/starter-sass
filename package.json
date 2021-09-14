@@ -1,14 +1,17 @@
 {
-	"name": "@divriots/starter-sass",
-	"version": "0.0.0",
-	"description": "",
-	"license": "ISC",
-	"type": "module",
-	"homepage": "{{ homepage }}",
-	"scripts": {
-		"serve": "dsd-cli serve eFLUQfY0zrR6dOuX5llT --open"
-	},
-	"devDependencies": {
-		"dsd-cli": "latest"
-	}
+  "name": "@divriots/starter-sass",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve eFLUQfY0zrR6dOuX5llT --open"
+  },
+  "devDependencies": {
+    "lit-html": "^1.4.1"
+  },
+  "dependencies": {
+    "@divriots/dockit-core": "^0.1.9"
+  }
 }
