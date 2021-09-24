@@ -3,7 +3,7 @@ import { html } from 'lit-html';
 
 const onThemeChanged = (e) => {
   const style = document.querySelector('#stylesheet');
-  style.setAttribute('href', `../src/${e.target.id}.scss`);
+  style.setAttribute('href', `../dist/${e.target.id}.css`);
 };
 
 setTimeout(() => {
@@ -14,7 +14,7 @@ setTimeout(() => {
 
 ```html:html
 
-<link id="stylesheet" rel="stylesheet" href="../src/light.scss">
+<link id="stylesheet" rel="stylesheet" href="../dist/light.css">
 
 <div>
    <input type="radio" id="light" name="color-scheme" value="light" checked />
