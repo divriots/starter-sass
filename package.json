@@ -1,0 +1,15 @@
+{
+  "name": "@divriots/starter-sass",
+  "version": "0.0.0",
+  "description": "Sass Starter Kit for Backlight.dev",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve eFLUQfY0zrR6dOuX5llT --open"
+  },
+  "dependencies": {
+    "@divriots/dockit-core": "^0.7.2",
+    "lit": "^2.2.0"
+  }
+}
